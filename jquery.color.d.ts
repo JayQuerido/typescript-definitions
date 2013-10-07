@@ -1,5 +1,4 @@
-// incomplete definitions for jquery.color:
-// https://github.com/jquery/jquery-color
+// incomplete definitions for https://github.com/jquery/jquery-color
 
 declare enum RGBA {red, green, blue, alpha}
 
@@ -25,4 +24,8 @@ interface JqueryColor {
     toRgbaString():string;
     toHslaString():string;
     toHexString(includeAlpha:boolean):string;
+}
+
+interface JQueryStatic {
+    Color(color:string):JqueryColor;
 }
