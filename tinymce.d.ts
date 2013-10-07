@@ -1,4 +1,4 @@
-// incomplete definitions for http://tinymce.com
+// incomplete definitions for http://www.tinymce.com
 
 interface TinyMceObservable {
     off: (name?:string, callback?:Function) => Object
